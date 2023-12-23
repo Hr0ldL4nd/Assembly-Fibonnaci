@@ -1,4 +1,4 @@
-#código fibonacci - Orlando Moreira de Melo Neto - 539268
+#código fibonacci - Orlando Moreira
 
 addi a0, zero, 10 #estamos definindo o número de ciclos
 addi a4, zero, 1  #contador, sabendo que já temos os 2 primeiros termos
@@ -16,4 +16,4 @@ add a3, a1, a2     #a3 recebe a soma dos dois termos anteriores
     blt a4, a0, for    #se condição atendida, vai para outro ciclo
     
 done:
-	#a cada ciclo, o registrador a3 armazena o valor n-ésimo termo da sequência
+    #a cada ciclo, o registrador a3 armazena o valor n-ésimo termo da sequência
